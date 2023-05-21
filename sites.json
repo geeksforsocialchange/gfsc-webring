@@ -1,0 +1,49 @@
+[
+    {
+      "name": "Geeks For Social Change",
+      "author": "Geeks For Social Change",
+      "url": "https://gfsc.studio/",
+      "rss": "https://gfsc.studio/index.xml"
+    },
+    {
+      "name": "Manchester Arms Investigation",
+      "author": "Manchester Arms Investigation",
+      "url": "https://geeksforsocialchange.github.io/arms-investigation/",
+      "rss": "https://geeksforsocialchange.github.io/arms-investigation/index.xml"
+    },
+    {
+      "name": "Faceloader",
+      "author": "Geeks For Social Change",
+      "url": "https://faceloader.link/"
+    },
+    {
+      "name": "Code Reading Club",
+      "url": "https://codereading.club/"
+    },
+    {
+      "name": "Resistance Lab",
+      "url": "https://resistancelab.network/"
+    },
+    {
+      "name": "Trans Safety Network",
+      "url": "https://transsafety.network/"
+    },
+    {
+      "name": "The White Pube",
+      "url": "https://www.thewhitepube.co.uk/",
+      "rss": "https://www.thewhitepube.co.uk/index.xml"
+    },
+    {
+      "name": "Ambition's Graveyard",
+      "url": "https://membership.ambition.rip/"
+    },
+    {
+      "name": "Trans Tech Tent",
+      "url": "https://transtechtent.com/"
+    },
+    {
+      "name": "Wheresalice",
+      "author": "wheresalice",
+      "url": "https://wheresalice.info"
+    }
+  ]
