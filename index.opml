@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+  <head>
+    <title>GFSC Collective Webring Feeds</title>
+  </head>
+  <body><outline text="Geeks For Social Change" title="Geeks For Social Change" type="rss" xmlUrl="https://gfsc.studio/index.xml" htmlUrl="https://gfsc.studio/"/><outline text="thoughts..." title="thoughts..." type="rss" xmlUrl="https://thoughts.hnr.fyi/index.xml" htmlUrl="https://thoughts.hnr.fyi/"/></body>
+</opml>
