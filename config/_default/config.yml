@@ -1,6 +1,6 @@
 theme: 'readable'
 title: 'GFSC Collective Webring'
-baseURL: 'https://geeksforsocialchange.github.io/hugo-webring'
+baseURL: 'https://webring.gfsc.studio'
 
 languages:
   en:
