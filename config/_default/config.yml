@@ -1,6 +1,6 @@
 theme: 'readable'
 title: 'GFSC Collective Webring'
-baseURL: 'https://wheresalice.github.io/hugo-webring'
+baseURL: 'https://geeksforsocialchange.github.io/hugo-webring'
 
 languages:
   en:
@@ -10,8 +10,8 @@ languages:
       - name: Home
         url: /
         weight: 1
-      - name: Members
-        url: /members
+      - name: Sites
+        url: /sites
         weight: 10
       - name: Join
         url: /join

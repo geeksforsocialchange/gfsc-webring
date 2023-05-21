@@ -5,8 +5,8 @@
 {{ .Content }}
 
 <ul>
-{{ range $member := getJSON "static/sites.json" }}
-  <li><a href="{{$member.url}}">{{ $member.name }}</a></li>
+{{ range $s := getJSON "static/sites.json" }}
+  <li><a href="{{$s.url}}">{{ $s.name }}</a></li>
 {{ end }}
 </ul>
 
