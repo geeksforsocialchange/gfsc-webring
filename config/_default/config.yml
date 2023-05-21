@@ -16,3 +16,16 @@ languages:
       - name: Join
         url: /join
         weight: 20
+
+mediaTypes:
+  text/opml:
+    suffixes:
+    - opml
+outputTypes:
+  opml:
+    mediaType: text/opml
+
+outputFormats:
+  opml:
+    isPlainText: true
+    mediaType: text/opml
