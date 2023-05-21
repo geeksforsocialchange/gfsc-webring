@@ -2,4 +2,4 @@
 title: ''
 ---
 
-Your Content Here!
+Some recent posts from our members:

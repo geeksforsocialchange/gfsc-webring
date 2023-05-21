@@ -1,14 +1,18 @@
 theme: 'readable'
-title: 'Your Title'
+title: 'GFSC Collective Webring'
+baseURL: 'https://wheresalice.github.io/hugo-webring'
 
 languages:
   en:
     languageName: English
     menu:
       main:
-      - name: Blog
-        url: /posts
-        weight: 10
       - name: Home
         url: /
         weight: 1
+      - name: Members
+        url: /members
+        weight: 10
+      - name: Join
+        url: /join
+        weight: 20
