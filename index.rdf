@@ -1,0 +1,40 @@
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:admin="http://webns.net/mvcb/">
+
+  <foaf:PersonalProfileDocument rdf:about="https://webring.gfsc.studio">
+    <foaf:maker rdf:resource="#me"/>
+    <foaf:primaryTopic rdf:resource="#me"/>
+    <admin:generatorAgent rdf:resource="https://github.com/geeksforsocialchange/gfsc-webring/blob/www/xml/index.rdf"/>
+  </foaf:PersonalProfileDocument>
+
+  <foaf:Group rdf:ID="me">
+    <foaf:name>GFSC Collective Webring</foaf:name><foaf:member>
+        <foaf:Person rdf:ID="geeks-for-social-change">
+          <foaf:name>Geeks For Social Change</foaf:name>
+          <rdfs:seeAlso rdf:resource="https://gfsc.studio/"/>
+        </foaf:Person>
+      </foaf:member><foaf:member>
+        <foaf:Person rdf:ID="ambitions-graveyard">
+          <foaf:name>Ambition's Graveyard</foaf:name>
+          <rdfs:seeAlso rdf:resource="https://membership.ambition.rip/"/>
+        </foaf:Person>
+      </foaf:member><foaf:member>
+        <foaf:Person rdf:ID="honor-ash">
+          <foaf:name>honor ash</foaf:name>
+          <rdfs:seeAlso rdf:resource="https://hnr.fyi/"/>
+        </foaf:Person>
+      </foaf:member><foaf:member>
+        <foaf:Person rdf:ID="thoughts...">
+          <foaf:name>thoughts...</foaf:name>
+          <rdfs:seeAlso rdf:resource="https://thoughts.hnr.fyi/"/>
+        </foaf:Person>
+      </foaf:member><foaf:member>
+        <foaf:Person rdf:ID="wheresalice">
+          <foaf:name>Wheresalice</foaf:name>
+          <rdfs:seeAlso rdf:resource="https://wheresalice.info"/>
+        </foaf:Person>
+      </foaf:member></foaf:Group>
+</rdf:RDF>
