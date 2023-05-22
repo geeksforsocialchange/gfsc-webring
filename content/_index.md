@@ -3,6 +3,7 @@ title: ''
 outputs:
   - html
   - opml
+  - rdf
 ---
 
 If you've reached this page, you have probably already visited a site on the GFSC Collective Webring. Welcome! This webring is for people and projects related to the Geeks For Social Change collective.

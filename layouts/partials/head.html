@@ -1,0 +1,14 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- This ensures your site looks right on mobile devices -->
+    <link rel="stylesheet" type="text/css" href="{{relURL "css/readable.min.css?v=v1.1.0"}}">
+    <meta name="description" content='{{ .Page.Description }}'>
+    <link rel="meta" type="application/rdf+xml" title="FOAF" href="{{ relURL "index.opml" }}" />
+    <link rel="alternate" type="text/x-opml" title="{{ .Site.Title }} - Feed Subscription" href="{{ absURL "index.rdf" }}" />
+    {{ if .Site.Params.favicon }}
+    <link rel="shortcut icon" href="{{ relURL ($.Site.Params.favicon) }}" type="image/x-icon" /> <!-- Show a favicon for your site, if one is configured in the Params section of the config. -->
+    {{ end }}
+    {{ $title := print .Site.Title " | " .Title }}
+    {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
+    <title>{{ $title }}</title>
+</head>

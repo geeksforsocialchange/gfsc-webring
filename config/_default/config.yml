@@ -21,11 +21,14 @@ mediaTypes:
   text/opml:
     suffixes:
     - opml
-outputTypes:
-  opml:
-    mediaType: text/opml
+  application/rdf+xml:
+    suffixes:
+    - rdf
 
 outputFormats:
   opml:
     isPlainText: true
     mediaType: text/opml
+  rdf:
+    isPlainText: true
+    mediaType: application/rdf+xml

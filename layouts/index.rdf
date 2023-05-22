@@ -1,0 +1,24 @@
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:admin="http://webns.net/mvcb/">
+
+  <foaf:PersonalProfileDocument rdf:about="{{ absURL "" }}">
+    <foaf:maker rdf:resource="#me"/>
+    <foaf:primaryTopic rdf:resource="#me"/>
+    <admin:generatorAgent rdf:resource="https://github.com/geeksforsocialchange/gfsc-webring/blob/www/xml/index.rdf"/>
+  </foaf:PersonalProfileDocument>
+
+  <foaf:Group rdf:ID="me">
+    <foaf:name>{{ .Site.Title }}</foaf:name>
+{{- range $s := getJSON "static/sites.json" -}}
+      <foaf:member>
+        <foaf:Person rdf:ID="{{ $s.name | urlize }}">
+          <foaf:name>{{ $s.name }}</foaf:name>
+          <rdfs:seeAlso rdf:resource="{{ $s.url }}"/>
+        </foaf:Person>
+      </foaf:member>
+{{- end -}}
+  </foaf:Group>
+</rdf:RDF>
