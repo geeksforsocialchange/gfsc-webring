@@ -31,10 +31,5 @@
           <foaf:name>thoughts...</foaf:name>
           <rdfs:seeAlso rdf:resource="https://thoughts.hnr.fyi/"/>
         </foaf:Person>
-      </foaf:member><foaf:member>
-        <foaf:Person rdf:ID="wheresalice">
-          <foaf:name>Wheresalice</foaf:name>
-          <rdfs:seeAlso rdf:resource="https://wheresalice.info"/>
-        </foaf:Person>
       </foaf:member></foaf:Group>
 </rdf:RDF>
